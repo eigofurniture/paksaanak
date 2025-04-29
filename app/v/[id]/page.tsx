@@ -135,7 +135,7 @@ export default async function Video({ params }: PageProps) {
         {/* ... */}
         </section>
                         <iframe
-                className="w-full h-[70vh] md:h-[55vh] lg:h-[70vh]"
+                className="w-full h-[60vh] md:h-[55vh] lg:h-[70vh]"
                 src={`https://filemoon.to/e/${file.file_code}`}
                 scrolling="no"
                 title={file.file_title}
